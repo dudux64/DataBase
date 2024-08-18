@@ -22,7 +22,7 @@ def main():
 
         if connection.is_connected():
             cursor = connection.cursor()
-            y = int(input("Se você quiser adicionar, digite 1; Se quiser remover, digite 2, Digite 3 se Quiser Alterar Um dado!: "))
+            y = int(input("Se você quiser adicionar, Digite 1; Se quiser remover, Digite 2, Se Quiser Alterar um dado, Digite 3: "))
 
             if y == 1:
                 nome = input("Nome do Cliente: ")
